@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PackBuddy - Pitch Deck</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Dots (Visual Only for Desktop) -->
+    <div class="nav-dots">
+        <!-- Dots generated via JS or manual anchors -->
+    </div>
+
+    <div class="deck-container">
+
+        <!-- SLIDE 1: Title / Cover -->
+        <section id="slide1">
+            <div class="container">
+                <div class="grid-2">
+                    <div>
+                        <span style="color: var(--accent-indian); font-weight: 700; letter-spacing: 2px;">STARTUP INDIA READY</span>
+                        <h1>PACKBUDDY</h1>
+                        <h2>India’s Smart Peer-to-Peer Delivery Platform</h2>
+                        <p style="font-size: 1.4rem; color: #fff;">Turning Everyday Travel into Fast & Affordable Delivery.</p>
+                        
+                        <div style="background: rgba(100, 255, 218, 0.1); padding: 1.5rem; border-radius: 8px; border-left: 4px solid var(--accent-primary); margin-bottom: 2rem;">
+                            <i class="fa-solid fa-quote-left" style="color: var(--accent-primary); margin-right: 10px;"></i>
+                            <em style="color: #fff;">“Why pay high courier charges when someone is already traveling your way?”</em>
+                        </div>
+
+                        <div class="badge-row">
+                            <span class="badge"><i class="fa-solid fa-bolt"></i> Same-Day</span>
+                            <span class="badge"><i class="fa-solid fa-wallet"></i> Low-Cost</span>
+                            <span class="badge"><i class="fa-solid fa-shield-halved"></i> OTP-Secured</span>
+                            <span class="badge">🇮🇳 Built for India</span>
+                        </div>
+                    </div>
+                    <div style="text-align: center; position: relative;">
+                        <!-- Visual Composition using Icons -->
+                        <i class="fa-solid fa-motorcycle" style="font-size: 12rem; color: rgba(255,255,255,0.05); position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></i>
+                        <div style="z-index: 2;">
+                            <i class="fa-solid fa-box-open" style="font-size: 5rem; color: var(--accent-indian); margin-bottom: 20px; text-shadow: 0 0 20px rgba(255,153,51,0.4);"></i>
+                            <div style="display: flex; justify-content: center; gap: 30px; margin-top: 30px;">
+                                <i class="fa-solid fa-location-dot" style="font-size: 2rem; color: var(--accent-primary);"></i>
+                                <i class="fa-solid fa-arrow-right-long" style="color: #fff; margin-top: 5px;"></i>
+                                <i class="fa-solid fa-location-dot" style="font-size: 2rem; color: var(--accent-indian);"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slide-footer">
+                    <span>PackBuddy Pitch Deck</span>
+                    <span>Slide 01</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 2: Founding Team -->
+        <section id="slide2">
+            <div class="container">
+                <h2>Meet the Team</h2>
+                <p>The minds driving the logistics revolution.</p>
+                
+                <div class="grid-4">
+                    <!-- Team Member 1 -->
+                    <div class="card" style="text-align: center;">
+                        <img src="C:\Users\HP\OneDrive\Desktop\pavan.jpeg" alt="Founder" class="team-img">
+                        <h3 style="margin-bottom: 0.2rem;">PAVAN</h3>
+                        <span style="color: var(--accent-indian); font-weight: 600;">Founder</span>
+                    </div>
+                    <!-- Team Member 2 -->
+                    <div class="card" style="text-align: center;">
+                        <img src="C:\Users\HP\OneDrive\Desktop\WhatsApp Image 2026-01-15 at 5.59.13 PM.jpeg" alt="Founder" class="team-img">
+                        <h3 style="margin-bottom: 0.2rem;">ARAVIND</h3>
+                        <span style="color: var(--accent-indian); font-weight: 600;">Founder</span>
+                    </div>
+                    <!-- Team Member 3 -->
+                    <div class="card" style="text-align: center;">
+                        <img src="https://picsum.photos/seed/founder3/200/200.jpg" alt="Founder" class="team-img">
+                        <h3 style="margin-bottom: 0.2rem;">SAI MEDH</h3>
+                        <span style="color: var(--accent-indian); font-weight: 600;">Founder</span>
+                    </div>
+                    <!-- Team Member 4 -->
+                    <div class="card" style="text-align: center;">
+                        <img src="C:\Users\HP\OneDrive\Desktop\rakesh.jpeg" alt="Founder" class="team-img">
+                        <h3 style="margin-bottom: 0.2rem;">RAKESH</h3>
+                        <span style="color: var(--accent-indian); font-weight: 600;">Founder</span>
+                    </div>
+                </div>
+
+                <div class="slide-footer">
+                    <span>Leadership</span>
+                    <span>Slide 02</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 3: Problem Statement -->
+        <section id="slide3">
+            <div class="container">
+                <div class="grid-2">
+                    <div>
+                        <h2>The Problem in India’s Delivery System</h2>
+                        <p>Current logistics solutions fail to meet the needs of the common Indian consumer and small businesses.</p>
+                    </div>
+                    <div class="grid-2" style="gap: 1rem;">
+                        <div class="card">
+                            <i class="fa-solid fa-money-bill-wave icon-box" style="color: #ff5555;"></i>
+                            <h4>High Costs</h4>
+                            <p style="font-size: 0.9rem;">Courier charges are often higher than the value of the parcel for short distances.</p>
+                        </div>
+                        <div class="card">
+                            <i class="fa-solid fa-clock icon-box" style="color: #ff5555;"></i>
+                            <h4>No Same-Day</h4>
+                            <p style="font-size: 0.9rem;">Lack of affordable same-day delivery options for urgent personal needs.</p>
+                        </div>
+                        <div class="card">
+                            <i class="fa-solid fa-map-location-dot icon-box" style="color: #ff5555;"></i>
+                            <h4>Tier-2/3 Gaps</h4>
+                            <p style="font-size: 0.9rem;">Major logistics players ignore smaller cities and remote pin codes.</p>
+                        </div>
+                        <div class="card">
+                            <i class="fa-solid fa-shop icon-box" style="color: #ff5555;"></i>
+                            <h4>Small Biz Struggle</h4>
+                            <p style="font-size: 0.9rem;">Students and local vendors cannot afford premium shipping partners.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-footer">
+                    <span>Pain Points</span>
+                    <span>Slide 03</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 4: Solution Flow -->
+        <section id="slide4">
+            <div class="container">
+                <h2>Our Solution – PackBuddy</h2>
+                <p>A seamless, secure, 4-step process connecting senders with travelers.</p>
+
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 3rem; flex-wrap: wrap;">
+                    
+                    <div class="flow-step">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <h4>1. Sender Posts</h4>
+                        <p style="font-size: 0.8rem; margin:0;">Enter details & destination</p>
+                    </div>
+
+                    <div class="arrow-right"><i class="fa-solid fa-chevron-right"></i></div>
+
+                    <div class="flow-step">
+                        <i class="fa-solid fa-hand-holding-hand"></i>
+                        <h4>2. Traveler Accepts</h4>
+                        <p style="font-size: 0.8rem; margin:0;">Verified commuter en route</p>
+                    </div>
+
+                    <div class="arrow-right"><i class="fa-solid fa-chevron-right"></i></div>
+
+                    <div class="flow-step">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <h4>3. OTP Handover</h4>
+                        <p style="font-size: 0.8rem; margin:0;">Secure pickup & drop</p>
+                    </div>
+
+                    <div class="arrow-right"><i class="fa-solid fa-chevron-right"></i></div>
+
+                    <div class="flow-step">
+                        <i class="fa-solid fa-map-location"></i>
+                        <h4>4. Live Track</h4>
+                        <p style="font-size: 0.8rem; margin:0;">Real-time delivery updates</p>
+                    </div>
+
+                </div>
+
+                <div class="slide-footer">
+                    <span>Workflow</span>
+                    <span>Slide 04</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 5: What is PackBuddy? -->
+        <section id="slide5">
+            <div class="container" style="text-align: center;">
+                <h2>What is PackBuddy?</h2>
+                
+                <div style="max-width: 800px; margin: 0 auto; background: var(--bg-card); padding: 3rem; border-radius: 20px; border: 1px solid var(--accent-primary);">
+                    <i class="fa-solid fa-people-arrows" style="font-size: 4rem; color: var(--accent-indian); margin-bottom: 1rem;"></i>
+                    <h3 style="color: #fff; font-size: 2rem; margin-bottom: 1rem;">India’s First Aggregator P2P Logistics Platform</h3>
+                    <p style="font-size: 1.2rem;">We utilize the existing network of daily travelers and commuters to move parcels, creating a sharing economy for logistics.</p>
+                    
+                    <div class="grid-3" style="margin-top: 2rem; text-align: left;">
+                        <div>
+                            <i class="fa-solid fa-users text-highlight"></i>
+                            <strong>Peer-to-Peer</strong>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-leaf text-highlight"></i>
+                            <strong>Eco-Friendly</strong>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-gauge-high text-highlight"></i>
+                            <strong>Faster</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide-footer">
+                    <span>Concept</span>
+                    <span>Slide 05</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 6: Objectives -->
+        <section id="slide6">
+            <div class="container">
+                <div class="grid-2">
+                    <div>
+                        <h2>Our Objectives</h2>
+                        <p>We aim to revolutionize the hyperlocal logistics sector with clear, actionable goals.</p>
+                        <ul style="list-style: none;">
+                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 10px;">
+                                <i class="fa-solid fa-circle-check" style="color: var(--accent-primary);"></i> Reduce delivery cost by 40% in India
+                            </li>
+                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 10px;">
+                                <i class="fa-solid fa-circle-check" style="color: var(--accent-primary);"></i> Enable instant same-day delivery
+                            </li>
+                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 10px;">
+                                <i class="fa-solid fa-circle-check" style="color: var(--accent-primary);"></i> Create income opportunities for travelers
+                            </li>
+                            <li style="margin-bottom: 1rem; display: flex; align-items: center; gap: 10px;">
+                                <i class="fa-solid fa-circle-check" style="color: var(--accent-primary);"></i> Empower small & local businesses
+                            </li>
+                        </ul>
+                    </div>
+                    <div style="display: flex; justify-content: center; align-items: center;">
+                        <i class="fa-solid fa-bullseye" style="font-size: 15rem; color: rgba(100, 255, 218, 0.1);"></i>
+                    </div>
+                </div>
+                <div class="slide-footer">
+                    <span>Mission</span>
+                    <span>Slide 06</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 7: Analysis -->
+        <section id="slide7">
+            <div class="container">
+                <h2>Market Analysis</h2>
+                <div class="grid-2">
+                    <!-- Current State -->
+                    <div class="card">
+                        <h3 style="color: #ff5555;">Current Logistics Landscape</h3>
+                        <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 1rem 0;">
+                        <p><i class="fa-solid fa-xmark" style="color: #ff5555; margin-right: 8px;"></i> High operational cost structures</p>
+                        <p><i class="fa-solid fa-xmark" style="color: #ff5555; margin-right: 8px;"></i> Centralized warehouse dependency</p>
+                        <p><i class="fa-solid fa-xmark" style="color: #ff5555; margin-right: 8px;"></i> Significant delays in last-mile delivery</p>
+                    </div>
+
+                    <!-- Market Opportunity -->
+                    <div class="card">
+                        <h3 style="color: var(--accent-primary);">Growth Opportunities</h3>
+                        <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.1); margin: 1rem 0;">
+                        <p><i class="fa-solid fa-arrow-trend-up" style="color: var(--accent-primary); margin-right: 8px;"></i> Growing hyperlocal delivery demand</p>
+                        <p><i class="fa-solid fa-arrow-trend-up" style="color: var(--accent-primary); margin-right: 8px;"></i> Surge in online sellers & local vendors</p>
+                        <p><i class="fa-solid fa-arrow-trend-up" style="color: var(--accent-primary); margin-right: 8px;"></i> Massive Tier-2 & Tier-3 city potential</p>
+                    </div>
+                </div>
+                <div class="slide-footer">
+                    <span>Industry Insight</span>
+                    <span>Slide 07</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 8: Comparison -->
+        <section id="slide8">
+            <div class="container">
+                <h2>Market vs PackBuddy Comparison</h2>
+                <div class="grid-3">
+                    <!-- Traditional -->
+                    <div class="card">
+                        <h4 style="color: #8892b0;">Traditional Courier</h4>
+                        <ul style="margin-top: 1rem; padding-left: 1rem; font-size: 0.9rem;">
+                            <li>High Cost</li>
+                            <li>Slow (2-5 Days)</li>
+                            <li>Rigid Schedules</li>
+                            <li>High Carbon Footprint</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- E-commerce -->
+                    <div class="card">
+                        <h4 style="color: #8892b0;">E-commerce Logistics</h4>
+                        <ul style="margin-top: 1rem; padding-left: 1rem; font-size: 0.9rem;">
+                            <li>Bulk focused</li>
+                            <li>Hub-to-Hub delays</li>
+                            <li>Not for individuals</li>
+                            <li>Limited reach</li>
+                        </ul>
+                    </div>
+
+                    <!-- PackBuddy -->
+                    <div class="card" style="border: 2px solid var(--accent-indian); transform: scale(1.05);">
+                        <h4 style="color: var(--accent-indian);">PackBuddy</h4>
+                        <ul style="margin-top: 1rem; padding-left: 1rem; font-size: 0.9rem; color: #fff;">
+                            <li><strong>Affordable</strong></li>
+                            <li><strong>Same-Day</strong></li>
+                            <li><strong>Flexible</strong></li>
+                            <li><strong>Eco-Friendly</strong></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="slide-footer">
+                    <span>Competitive Advantage</span>
+                    <span>Slide 08</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 9: SWOT / Analysis -->
+        <section id="slide9">
+            <div class="container">
+                <h2>PackBuddy Analysis</h2>
+                <div class="grid-2">
+                    <div>
+                        <h3 style="margin-bottom: 1.5rem;">Strengths</h3>
+                        <div class="card">
+                            <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                                <i class="fa-solid fa-tag" style="color: var(--accent-primary);"></i>
+                                <span>Competitive low pricing model</span>
+                            </div>
+                            <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                                <i class="fa-solid fa-stopwatch" style="color: var(--accent-primary);"></i>
+                                <span>Fastest delivery via existing traffic</span>
+                            </div>
+                            <div style="display: flex; gap: 10px;">
+                                <i class="fa-solid fa-layer-group" style="color: var(--accent-primary);"></i>
+                                <span>Highly scalable without asset ownership</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 style="margin-bottom: 1.5rem;">Opportunities</h3>
+                        <div class="card">
+                            <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                                <i class="fa-solid fa-graduation-cap" style="color: var(--accent-indian);"></i>
+                                <span>Campus & College networks</span>
+                            </div>
+                            <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+                                <i class="fa-solid fa-store" style="color: var(--accent-indian);"></i>
+                                <span>Partnership with Kirana stores</span>
+                            </div>
+                            <div style="display: flex; gap: 10px;">
+                                <i class="fa-solid fa-globe" style="color: var(--accent-indian);"></i>
+                                <span>Expansion to Tier-2 cities</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-footer">
+                    <span>Internal Audit</span>
+                    <span>Slide 09</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 10: Technology Stack -->
+        <section id="slide10">
+            <div class="container">
+                <h2>Technology & Tools Used</h2>
+                <p>Robust technology ensuring security and reliability.</p>
+                
+                <div class="grid-3" style="margin-top: 2rem;">
+                    <div class="card" style="text-align: center;">
+                        <i class="fa-brands fa-android icon-box"></i>
+                        <h4>Android App</h4>
+                        <p style="font-size: 0.9rem;">Native Kotlin/Flutter App for users & travelers.</p>
+                    </div>
+                    <div class="card" style="text-align: center;">
+                        <i class="fa-solid fa-server icon-box"></i>
+                        <h4>Backend</h4>
+                        <p style="font-size: 0.9rem;">Firebase / Node.js for real-time data sync.</p>
+                    </div>
+                    <div class="card" style="text-align: center;">
+                        <i class="fa-solid fa-map icon-box"></i>
+                        <h4>Google Maps API</h4>
+                        <p style="font-size: 0.9rem;">Route optimization & Live Tracking.</p>
+                    </div>
+                    <div class="card" style="text-align: center;">
+                        <i class="fa-solid fa-comment-sms icon-box"></i>
+                        <h4>SMS OTP</h4>
+                        <p style="font-size: 0.9rem;">Secure 2-factor authentication for pickup/drop.</p>
+                    </div>
+                    <div class="card" style="text-align: center;">
+                        <i class="fa-solid fa-gauge icon-box"></i>
+                        <h4>Admin Dashboard</h4>
+                        <p style="font-size: 0.9rem;">Web panel for dispute resolution & analytics.</p>
+                    </div>
+                </div>
+
+                <div class="slide-footer">
+                    <span>Architecture</span>
+                    <span>Slide 10</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 11: Pricing -->
+        <section id="slide11">
+            <div class="container">
+                <h2>Pricing Factor</h2>
+                <p>Transparent, formula-based pricing for maximum fairness.</p>
+
+                <div class="grid-2">
+                    <div>
+                        <div class="card" style="margin-bottom: 2rem;">
+                            <h3>The Formula</h3>
+                            <div style="background: rgba(0,0,0,0.3); padding: 1rem; border-radius: 8px; font-family: monospace; font-size: 1.2rem; color: var(--accent-primary); margin-top: 1rem;">
+                                Price = Base + (Distance × Rate) + Weight + Urgency
+                            </div>
+                        </div>
+                        <ul style="list-style: none;">
+                            <li style="margin-bottom: 0.5rem;"><i class="fa-solid fa-check text-highlight"></i> Base fare applies to everyone.</li>
+                            <li style="margin-bottom: 0.5rem;"><i class="fa-solid fa-check text-highlight"></i> Weight categories: Light, Medium, Heavy.</li>
+                            <li style="margin-bottom: 0.5rem;"><i class="fa-solid fa-check text-highlight"></i> Urgency multiplier for express mode.</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-box">
+                        <h3 style="color: #fff;">Example Calculation</h3>
+                        <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.2); margin: 1rem 0;">
+                        
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                            <span>Distance</span>
+                            <span>20 km</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                            <span>Weight</span>
+                            <span>5 kg</span>
+                        </div>
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 20px; color: var(--accent-indian);">
+                            <span>Mode</span>
+                            <span>Express Delivery</span>
+                        </div>
+
+                        <div style="text-align: right;">
+                            <span style="color: #8892b0;">Total Estimated Cost</span>
+                            <div class="big-rupee">₹ 185</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide-footer">
+                    <span>Monetization</span>
+                    <span>Slide 11</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 12: Market Plans -->
+        <section id="slide12">
+            <div class="container">
+                <h2>Go-To-Market Strategy</h2>
+                <p>Phased rollout for maximum adoption.</p>
+                
+                <div style="position: relative; padding: 2rem 0;">
+                    <!-- Vertical Line -->
+                    <div style="position: absolute; left: 50%; top: 0; bottom: 0; width: 4px; background: var(--bg-lighter); transform: translateX(-50%);"></div>
+
+                    <div class="grid-2">
+                        <!-- Phase 1 -->
+                        <div class="card" style="text-align: right; border-right: 4px solid var(--accent-primary);">
+                            <h3>Phase 1: Initial Focus</h3>
+                            <p style="font-size: 0.9rem; margin-bottom: 0.5rem; color: var(--accent-indian);">Month 1-6</p>
+                            <ul style="list-style: none; text-align: right;">
+                                <li>Target Colleges & Universities</li>
+                                <li>Campus Ambassador Program</li>
+                                <li>Pilot in 2 Tier-1 Cities</li>
+                            </ul>
+                        </div>
+
+                        <!-- Phase 2 -->
+                        <div class="card" style="border-left: 4px solid var(--accent-indian);">
+                            <h3>Phase 2: Expansion</h3>
+                            <p style="font-size: 0.9rem; margin-bottom: 0.5rem; color: var(--accent-indian);">Month 6-12</p>
+                            <ul style="list-style: none;">
+                                <li>Onboard Small Businesses</li>
+                                <li>Tier-2 City Penetration</li>
+                                <li>Local Merchant Partnerships</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide-footer">
+                    <span>Roadmap</span>
+                    <span>Slide 12</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 13: Product Requirements -->
+        <section id="slide13">
+            <div class="container">
+                <h2>Product Requirements & Tools</h2>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3 style="margin-bottom: 1.5rem;">Product Requirements</h3>
+                        <div style="display: flex; gap: 10px; margin-bottom: 15px; align-items: center;">
+                            <i class="fa-solid fa-mobile" style="color: var(--accent-primary);"></i> Intuitive Mobile App
+                        </div>
+                        <div style="display: flex; gap: 10px; margin-bottom: 15px; align-items: center;">
+                            <i class="fa-solid fa-user-shield" style="color: var(--accent-primary);"></i> User Auth & Verification
+                        </div>
+                        <div style="display: flex; gap: 10px; margin-bottom: 15px; align-items: center;">
+                            <i class="fa-solid fa-key" style="color: var(--accent-primary);"></i> OTP Verification System
+                        </div>
+                        <div style="display: flex; gap: 10px; margin-bottom: 15px; align-items: center;">
+                            <i class="fa-solid fa-satellite-dish" style="color: var(--accent-primary);"></i> Real-time Live Tracking
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3 style="margin-bottom: 1.5rem;">Tools Required</h3>
+                        <div style="display: flex; gap: 10px; margin-bottom: 15px; align-items: center;">
+                            <i class="fa-brands fa-google" style="color: var(--accent-indian);"></i> Maps API & Geo-fencing
+                        </div>
+                        <div style="display: flex; gap: 10px; margin-bottom: 15px; align-items: center;">
+                            <i class="fa-solid fa-cloud" style="color: var(--accent-indian);"></i> Cloud Backend (AWS/Firebase)
+                        </div>
+                        <div style="display: flex; gap: 10px; margin-bottom: 15px; align-items: center;">
+                            <i class="fa-solid fa-credit-card" style="color: var(--accent-indian);"></i> Payment Gateway (UPI/Razorpay)
+                        </div>
+                        <div style="display: flex; gap: 10px; margin-bottom: 15px; align-items: center;">
+                            <i class="fa-solid fa-bell" style="color: var(--accent-indian);"></i> Push Notification Service
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-footer">
+                    <span>Development Scope</span>
+                    <span>Slide 13</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 14: Conclusion -->
+        <section id="slide14">
+            <div class="container" style="text-align: center; justify-content: center;">
+                <i class="fa-solid fa-flag" style="font-size: 4rem; color: var(--accent-indian); margin-bottom: 2rem;"></i>
+                
+                <h2>Conclusion & Vision</h2>
+                
+                <div style="max-width: 800px; margin: 0 auto; background: linear-gradient(180deg, var(--bg-card), var(--bg-dark)); padding: 3rem; border-radius: 20px; border: 1px solid var(--accent-primary); box-shadow: 0 0 50px rgba(100,255,218,0.1);">
+                    <h3 style="font-size: 2rem; color: #fff; margin-bottom: 1.5rem; line-height: 1.4;">
+                        “To build India’s most affordable and accessible delivery network.”
+                    </h3>
+                    <p style="font-size: 1.25rem;">Empowering everyday travel into smart logistics.</p>
+                    
+                    <div style="margin-top: 3rem;">
+                        <i class="fa-solid fa-handshake" style="font-size: 2rem; color: var(--text-main);"></i>
+                        <p style="margin-top: 1rem; font-size: 0.9rem; color: #8892b0;">Thank you for your time & consideration.</p>
+                    </div>
+                </div>
+
+                <div class="slide-footer" style="justify-content: center;">
+                    <span>PackBuddy © 2025</span>
+                    <span>PB</span>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+<!-- External JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
